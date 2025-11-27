@@ -17,3 +17,4 @@
 - [Using Claude Code(Japanese)](./docs/learning-phase-3/01-AI-setup-jp.md)
 
 ### #4 2025/11/29 Learning Phase 4
+- [AIを組み込んだアプリ開発](./docs/learning-phase-4/01-developing-applications-with-AI-integration.md)
