@@ -1336,7 +1336,7 @@ git push
 **公式サイト**: https://www.assemblyai.com/
 
 #### Gemini/Hugging Faceとの違い
-- **Gemini**: 音声認識機能なし
+- **Gemini**: 音声入力は可能（Live API）だが、文字起こし専門機能はない
 - **Hugging Face**: 音声認識モデルはあるが、精度とセットアップが難しい
 - **AssemblyAI**: 音声認識が高精度 + 簡単 + 日本語対応
 
@@ -1363,7 +1363,7 @@ git push
 **公式サイト**: https://elevenlabs.io/
 
 #### Gemini/Hugging Faceとの違い
-- **Gemini**: 音声生成機能なし
+- **Gemini**: Text-to-Speech機能あり（preview版）だが、ElevenLabsほど自然ではない
 - **Hugging Face**: 音声生成モデルはあるが、品質が低く不自然
 - **ElevenLabs**: 非常に自然な人間らしい音声で音声生成が可能
 

@@ -1336,7 +1336,7 @@ Try APIs that interest you during the free exercise time.
 **Official Site**: https://www.assemblyai.com/
 
 #### Differences from Gemini/Hugging Face
-- **Gemini**: No speech recognition functionality
+- **Gemini**: Voice input possible (Live API) but no dedicated transcription features
 - **Hugging Face**: Has speech recognition models but accuracy and setup are difficult
 - **AssemblyAI**: High-accuracy speech recognition + easy + Japanese support
 
@@ -1363,7 +1363,7 @@ Try APIs that interest you during the free exercise time.
 **Official Site**: https://elevenlabs.io/
 
 #### Differences from Gemini/Hugging Face
-- **Gemini**: No voice generation functionality
+- **Gemini**: Has Text-to-Speech functionality (preview) but not as natural as ElevenLabs
 - **Hugging Face**: Has voice generation models but low quality and unnatural
 - **ElevenLabs**: Very natural, human-like voice generation
 
