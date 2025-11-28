@@ -301,6 +301,21 @@ HUGGINGFACE_API_KEY=ここにHugging Face APIキーを貼り付け
 
 ---
 
+### Gitでの進捗管理について
+
+これから3つの機能を実装していきますが、**各機能が完成したらGitでコミット・プッシュ**することをお勧めします。
+
+**なぜコミット・プッシュが重要？**
+
+1. **進捗の記録**: どこまで実装したか記録できる
+2. **バックアップ**: PCが故障してもGitHubにコードが残る
+3. **間違えても安全**: 前の状態に戻せる
+4. **実務の練習**: 実際の開発現場でも同じ流れ
+
+各機能の動作確認が完了したら、その時点でコミット・プッシュします。手順は各セクションの最後に記載します。
+
+---
+
 **準備が整いました！それでは、3つのAI機能を順番に実装していきましょう。**
 
 ## 機能1: 犬種/猫種自動識別
@@ -464,6 +479,28 @@ Breedフィールドの下に識別中の表示を追加：
 1. ペット登録ページで「Category」を「Dog」または「Cat」に設定
 2. ペットの画像をアップロード
 3. 数秒後、「Breed」フィールドに自動的に品種名が入力される
+
+### 1-5. Gitでコミット・プッシュ
+
+機能が正常に動作したら、進捗を保存しましょう。
+
+**VSCodeのSource Control（左サイドバーのアイコン）を使う場合：**
+
+1. 左サイドバーの「Source Control」アイコン（ブランチマーク）をクリック
+2. 「Changes」の横の「+」ボタンで全ファイルをステージング
+3. メッセージ欄に「Add pet breed identification feature」と入力
+4. 「✓ Commit」ボタンをクリック
+5. 「Sync Changes」または「Publish Branch」をクリック
+
+**ターミナルを使う場合：**
+
+```bash
+git add .
+git commit -m "Add pet breed identification feature"
+git push
+```
+
+**これで機能1の実装が記録されました！**
 
 ---
 
@@ -695,6 +732,28 @@ return文の最後に追加：
 3. クリックしてチャットウィンドウを開く
 4. 質問を入力（例：「散歩の頻度はどのくらいがいいですか？」）
 5. AIが回答を返す
+
+### 2-5. Gitでコミット・プッシュ
+
+機能が正常に動作したら、進捗を保存しましょう。
+
+**VSCodeのSource Control（左サイドバーのアイコン）を使う場合：**
+
+1. 左サイドバーの「Source Control」アイコン（ブランチマーク）をクリック
+2. 「Changes」の横の「+」ボタンで全ファイルをステージング
+3. メッセージ欄に「Add healthcare advisor chatbot feature」と入力
+4. 「✓ Commit」ボタンをクリック
+5. 「Sync Changes」または「Publish Branch」をクリック
+
+**ターミナルを使う場合：**
+
+```bash
+git add .
+git commit -m "Add healthcare advisor chatbot feature"
+git push
+```
+
+**これで機能2の実装が記録されました！**
 
 ---
 
@@ -1028,6 +1087,28 @@ import { Sparkles } from "lucide-react"
 **トラブルシューティング**:
 - モデル読み込み中（503エラー）の場合: 20-30秒待ってから再試行
 - 画像が表示されない場合: ブラウザのコンソールでエラーを確認
+
+### 3-5. Gitでコミット・プッシュ
+
+機能が正常に動作したら、進捗を保存しましょう。
+
+**VSCodeのSource Control（左サイドバーのアイコン）を使う場合：**
+
+1. 左サイドバーの「Source Control」アイコン（ブランチマーク）をクリック
+2. 「Changes」の横の「+」ボタンで全ファイルをステージング
+3. メッセージ欄に「Add child image generation feature」と入力
+4. 「✓ Commit」ボタンをクリック
+5. 「Sync Changes」または「Publish Branch」をクリック
+
+**ターミナルを使う場合：**
+
+```bash
+git add .
+git commit -m "Add child image generation feature"
+git push
+```
+
+**これで機能3の実装が記録されました！**
 
 ---
 
